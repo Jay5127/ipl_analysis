@@ -5,6 +5,7 @@ import seaborn as sns
 import streamlit as st
 
 # Disable the warning about pyplot global use
+st.set_page_config(page_title= 'IPL Analysis' , page_icon= ':cricket_bat_and_ball:' , layout= 'wide')
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 # Your Streamlit app code follows below
