@@ -4,4 +4,9 @@ if n == 'a':
     print('This is temp')
     
 else:
-    print('c')
+    temp = input('Are you real:')
+    if temp == 'yes':
+        print('Good to go')
+    else:
+        print('Ok')
+        
